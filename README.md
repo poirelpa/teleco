@@ -19,7 +19,7 @@ The server is a python script running with Flask.
 
 I installed it as a service on my raspberry pi with supervisorctl
 
-The server runs on port 8080.
+The server runs on port 8081.
 
 ### HTML client
 Default route returns a HTML remote control :
