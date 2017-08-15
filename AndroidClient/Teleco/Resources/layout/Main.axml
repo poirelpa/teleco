@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_view">
+    <TableLayout
+        android:id="@+id/fbx_teleco"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:shrinkColumns="0,1,2"
+        android:background="#9C8C76">
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:text="AV"
+                android:id="@+id/fbx_av"
+                android:background="#00000000" />
+            <Button
+                android:layout_column="2"
+                android:text="!"
+                android:id="@+id/fbx_power"
+                android:background="#00000000" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="#00000000">
+            <Button
+                android:text="1"
+                android:id="@+id/fbx_1"
+                android:background="#00000000" />
+            <Button
+                android:text="2"
+                android:id="@+id/fbx_2"
+                android:background="#00000000" />
+            <Button
+                android:text="3"
+                android:id="@+id/fbx_3"
+                android:background="#00000000" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:text="4"
+                android:id="@+id/fbx_4"
+                android:background="#00000000" />
+            <Button
+                android:text="5"
+                android:id="@+id/fbx_5"
+                android:background="#00000000" />
+            <Button
+                android:text="6"
+                android:id="@+id/fbx_6"
+                android:background="#00000000" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:text="7"
+                android:id="@+id/fbx_7"
+                android:background="#00000000" />
+            <Button
+                android:text="8"
+                android:id="@+id/fbx_8"
+                android:background="#00000000" />
+            <Button
+                android:text="9"
+                android:id="@+id/fbx_9"
+                android:background="#00000000" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:text="0"
+                android:id="@+id/fbx_0"
+                android:layout_column="1"
+                android:background="#00000000" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:id="@+id/fbx_back"
+                android:background="#ff2200"
+                android:textColor="#9C8C76"
+                android:text="PRE"
+                android:textStyle="bold" />
+            <Button
+                android:text="▲"
+                android:id="@+id/fbx_up"
+                android:background="#00000000" />
+            <Button
+                android:text="SRC"
+                android:id="@+id/fbx_search"
+                android:background="#38a5ff"
+                android:textColor="#9C8C76"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:id="@+id/fbx_left"
+                android:background="#00000000"
+                android:text="◄" />
+            <Button
+                android:text="OK"
+                android:id="@+id/fbx_enter"
+                android:background="#00000000" />
+            <Button
+                android:text="►"
+                android:id="@+id/fbx_right"
+                android:background="#00000000" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:text="M"
+                android:id="@+id/fbx_menu"
+                android:background="#21ed21"
+                android:textColor="#9C8C76"
+                android:textStyle="bold" />
+            <Button
+                android:text="▼"
+                android:id="@+id/fbx_down"
+                android:background="#00000000" />
+            <Button
+                android:text="i"
+                android:id="@+id/fbx_info"
+                android:background="#ffee00"
+                android:textColor="#9C8C76"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:text="free"
+                android:id="@+id/fbx_free"
+                android:layout_span="3"
+                android:textColor="#ff2200"
+                android:textStyle="bold|italic"
+                android:textAllCaps="false"
+                android:background="#00000000"
+                android:textSize="30dp" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:text="v+"
+                android:id="@+id/fbx_volp"
+                android:background="#00000000" />
+            <Button
+                android:text="M"
+                android:id="@+id/fbx_mute"
+                android:background="#00000000" />
+            <Button
+                android:text="c+"
+                android:id="@+id/fbx_chanp"
+                android:background="#00000000" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:text="v-"
+                android:id="@+id/fbx_volm"
+                android:background="#00000000" />
+            <Button
+                android:text="o"
+                android:id="@+id/fbx_record"
+                android:textColor="#ff2200"
+                android:textStyle="bold"
+                android:background="#00000000" />
+            <Button
+                android:text="c-"
+                android:id="@+id/fbx_chanm"
+                android:background="#00000000" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:text="⏮"
+                android:id="@+id/fbx_rewind"
+                android:background="#00000000" />
+            <Button
+                android:text="⏯"
+                android:id="@+id/fbx_play"
+                android:background="#00000000" />
+            <Button
+                android:text="⏭"
+                android:id="@+id/fbx_forward"
+                android:background="#00000000" />
+        </TableRow>
+    </TableLayout>
+<!--
+  <TableLayout
+      android:id="@+id/tv_teleco"
+      android:layout_weight="3"
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:shrinkColumns="0,1,2"
+      android:background="#333333">
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="IN"
+          android:id="@+id/tv_list" />
+      <Button
+          android:layout_column="2"
+          android:text="!"
+          android:id="@+id/tv_power" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="1"
+          android:id="@+id/tv_1" />
+      <Button
+          android:text="2"
+          android:id="@+id/tv_2" />
+      <Button
+          android:text="3"
+          android:id="@+id/tv_3" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="4"
+          android:id="@+id/tv_4" />
+      <Button
+          android:text="5"
+          android:id="@+id/tv_5" />
+      <Button
+          android:text="6"
+          android:id="@+id/tv_6" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="7"
+          android:id="@+id/tv_7" />
+      <Button
+          android:text="8"
+          android:id="@+id/tv_8" />
+      <Button
+          android:text="9"
+          android:id="@+id/tv_9" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="0"
+          android:id="@+id/tv_0"
+          android:layout_column="1" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="A"
+          android:id="@+id/tv_red" />
+      <Button
+          android:text="^"
+          android:id="@+id/tv_up" />
+      <Button
+          android:text="B"
+          android:id="@+id/tv_green" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="&lt;"
+          android:id="@+id/tv_left" />
+      <Button
+          android:text="OK"
+          android:id="@+id/tv_ok" />
+      <Button
+          android:text="&gt;"
+          android:id="@+id/tv_right" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="C"
+          android:id="@+id/tv_yellow" />
+      <Button
+          android:text="v"
+          android:id="@+id/tv_down" />
+      <Button
+          android:text="D"
+          android:id="@+id/tv_blue" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="M"
+          android:id="@+id/tv_setup" />
+      <Button
+          android:text="EX"
+          android:id="@+id/tv_exit" />
+      <Button
+          android:text="&lt;-"
+          android:id="@+id/tv_back" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="V+"
+          android:id="@+id/tv_volumeup" />
+      <Button
+          android:text="M"
+          android:id="@+id/tv_mute" />
+      <Button
+          android:text="C+"
+          android:id="@+id/tv_channelup" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="V-"
+          android:id="@+id/tv_volumedown" />
+      <Button
+          android:text="C-"
+          android:id="@+id/tv_channeldown"
+          android:layout_column="2" />
+    </TableRow>
+  </TableLayout>
+  <TableLayout
+      android:id="@+id/kodi_teleco"
+      android:layout_weight="2"
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:shrinkColumns="0,1"
+      android:background="#2C424A">
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="^"
+          android:id="@+id/kodi_up" />
+      <Button
+          android:text="v"
+          android:id="@+id/kodi_down" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="&lt;"
+          android:id="@+id/kodi_left" />
+      <Button
+          android:text="&gt;"
+          android:id="@+id/kodi_right" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="&lt;-"
+          android:id="@+id/kodi_back" />
+      <Button
+          android:text="OK"
+          android:id="@+id/kodi_ok" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="M"
+          android:id="@+id/kodi_menu" />
+      <Button
+          android:text="I"
+          android:id="@+id/kodi_info" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="V-"
+          android:id="@+id/kodi_volumedown" />
+      <Button
+          android:text="V+"
+          android:id="@+id/kodi_volumeup" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="&lt;&lt;"
+          android:id="@+id/kodi_bigstepback" />
+      <Button
+          android:text="&gt;&gt;"
+          android:id="@+id/kodi_bigstepforward" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="&lt;"
+          android:id="@+id/kodi_stepback" />
+      <Button
+          android:text="&gt;"
+          android:id="@+id/kodi_stepforward" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+      <Button
+          android:text="|&gt;|"
+          android:id="@+id/kodi_playpause" />
+      <Button
+          android:text="¤"
+          android:id="@+id/kodi_stop" />
+    </TableRow>
+  </TableLayout>
+  -->
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TableLayout
+            android:id="@+id/tv_teleco"
+            android:shrinkColumns="0,1,2"
+            android:background="#333333"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:text="I"
+                    android:id="@+id/tv_on"
+                    android:background="#00000000"
+                    android:textStyle="bold" />
+                <Button
+                    android:text="π"
+                    android:id="@+id/tv_rpi"
+                    android:background="#00000000"
+                    android:layout_column="2" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:text="O"
+                    android:id="@+id/tv_standby"
+                    android:background="#00000000"
+                    android:textStyle="bold" />
+                <Button
+                    android:text="free"
+                    android:id="@+id/tv_free"
+                    android:background="#00000000"
+                    android:layout_column="2" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:text="tv"
+                    android:layout_column="1"
+                    android:textColor="#ffee00"
+                    android:textStyle="bold|italic"
+                    android:textAllCaps="false"
+                    android:background="#00000000"
+                    android:textSize="30dp" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/kodi_teleco"
+            android:shrinkColumns="0,1,2"
+            android:background="#2C424A"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:text="A"
+                    android:background="#00000000"
+                    android:id="@+id/kodi_firstpage" />
+                <Button
+                    android:background="#00000000"
+                    android:id="@+id/kodi_pageup"
+                    android:text="⇞" />
+                <Button
+                    android:text="L⇞"
+                    android:background="#00000000"
+                    android:id="@+id/kodi_prevletter" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:text="Z"
+                    android:background="#00000000"
+                    android:id="@+id/kodi_lastpage" />
+                <Button
+                    android:text="⇟"
+                    android:background="#00000000"
+                    android:id="@+id/kodi_pagedown" />
+                <Button
+                    android:background="#00000000"
+                    android:id="@+id/kodi_nextletter"
+                    android:text="L⇟" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:id="@+id/kodi_back"
+                    android:background="#ff2200"
+                    android:textColor="#2c424a"
+                    android:text="PRE"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/kodi_up"
+                    android:background="#00000000"
+                    android:text="▲" />
+                <Button
+                    android:text="!"
+                    android:id="@+id/kodi_quit"
+                    android:background="#38a5ff"
+                    android:textColor="#2c424a" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:id="@+id/kodi_left"
+                    android:background="#00000000"
+                    android:text="◄" />
+                <Button
+                    android:text="OK"
+                    android:id="@+id/kodi_ok"
+                    android:background="#00000000" />
+                <Button
+                    android:id="@+id/kodi_right"
+                    android:background="#00000000"
+                    android:text="►" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:text="M"
+                    android:id="@+id/kodi_menu"
+                    android:background="#21ed21"
+                    android:textColor="#2c424a"
+                    android:textStyle="bold" />
+                <Button
+                    android:text="▼"
+                    android:id="@+id/kodi_down"
+                    android:background="#00000000" />
+                <Button
+                    android:text="i"
+                    android:id="@+id/kodi_info"
+                    android:background="#ffee00"
+                    android:textColor="#2c424a"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:text="kodi"
+                    android:id="@+id/kodi_start"
+                    android:layout_span="3"
+                    android:textColor="#38A5FF"
+                    android:textStyle="bold|italic"
+                    android:textAllCaps="false"
+                    android:background="#00000000"
+                    android:textSize="30dp" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:text="V-"
+                    android:id="@+id/kodi_volumedown"
+                    android:background="#00000000" />
+                <Button
+                    android:text="M"
+                    android:id="@+id/kodi_mute"
+                    android:background="#00000000" />
+                <Button
+                    android:text="V+"
+                    android:id="@+id/kodi_volumeup"
+                    android:background="#00000000" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:text="&lt;&lt;"
+                    android:id="@+id/kodi_stepback"
+                    android:background="#00000000" />
+                <Button
+                    android:id="@+id/kodi_stop"
+                    android:background="#00000000"
+                    android:typeface="monospace"
+                    android:text="█ " />
+                <Button
+                    android:text="&gt;&gt;"
+                    android:id="@+id/kodi_stepforward"
+                    android:background="#00000000"
+                    android:typeface="monospace" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <Button
+                    android:text="⏮"
+                    android:id="@+id/kodi_skipprevious"
+                    android:background="#00000000" />
+                <Button
+                    android:id="@+id/kodi_playpause"
+                    android:background="#00000000"
+                    android:text="⏯" />
+                <Button
+                    android:text="⏭"
+                    android:id="@+id/kodi_skipnext"
+                    android:background="#00000000" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
