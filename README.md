@@ -12,3 +12,15 @@ Requirements on server :
 https://github.com/haikuginger/kodipydent
 
 https://github.com/MaximeCheramy/remotefreebox
+
+
+## Server
+The server is a python script running with Flask.
+
+I installed it as a service on my raspberry pi with supervisorctl
+
+The server runs on port 8080.
+
+Default route returns a HTML remote control :
+
+![HTML client](images/html_client.png)
