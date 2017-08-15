@@ -9,8 +9,6 @@ But it works for me ...
 
 Requirements on server :
 
-https://github.com/haikuginger/kodipydent
-
 https://github.com/MaximeCheramy/remotefreebox
 
 
