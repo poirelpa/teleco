@@ -23,4 +23,4 @@ The server runs on port 8080.
 
 Default route returns a HTML remote control :
 
-![HTML client](https://github.com/poirelpa/teleco/images/html_client.png)
+![HTML client](images/html_client.png)
