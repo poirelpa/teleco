@@ -21,6 +21,24 @@ I installed it as a service on my raspberry pi with supervisorctl
 
 The server runs on port 8080.
 
+### HTML client
 Default route returns a HTML remote control :
 
 ![HTML client](images/html_client.png)
+
+### Freebox
+/freebox/<key> is mapped to a method that uses remotefreebox to press the button.
+
+When the freebox restarts, the control api starts on a random port, discoverd by the freeboxcontroller module.
+
+A call to /freebox/power tries to start the freebox with the already started freeboxcontroller, then restarts the freeboxcontroller in case the port has changed.
+
+### Kodi
+/kodi/<key> is mapped to a method that uses kodi JSONRPC API (Application.Quit, or Input.ExecuteAction)
+
+/kodi/start launches kodi if it is not already started.
+
+### TV
+/hdmi/<key> is mapped to a method that launches CEC commands on HDMI.
+
+My Freebox is on HDMI 3, and my PI is on HDMI 2.
