@@ -1,0 +1,193 @@
+<html>
+<head>
+<meta name="viewport" content="minimal-ui, width=192, initial-scale=1.0, shrink-to-fit=yes">
+<meta name="mobile-web-app-capable" content="yes">
+<style>
+body{
+font-family:sans-serif;
+font-size:20px;
+background-color:black;
+}
+table a{
+text-decoration:none;
+color:#fff;
+}
+body,table,tbody{margin:0px;border-spacing:0}
+table td{
+width:47px;
+height:47px;
+text-align:center;
+}
+table{
+clear:right;
+float:right;
+}
+table#free{
+float:left;
+background-color:#9C8C76;
+margin-right:15px;
+}
+table#free a.free{
+color:#ff2200;
+font-style:italic;
+font-weight:900;
+}
+table#free a.record{
+color:#ff2200;
+font-weight:900;
+}
+table#free td.back a, table#free td.search a,
+table#free td.menu a, table#free td.info a{
+color:#9C8C76
+}
+table td.back{background-color:#ff2200}
+table td.search{background-color:#38a5ff}
+table td.menu{background-color:#21ed21}
+table td.info{background-color:#fe0}
+
+table#kodi{
+background-color:#2C424A;
+}
+table#kodi a.kodi{
+color:#38a5ff;
+font-style:italic;
+font-weight:900;
+}
+table#kodi td.back a, table#kodi td.search a,
+table#kodi td.menu a, table#kodi td.info a{
+color:#2C424A
+}
+
+table#tv{background-color:#333}
+table#tv a.tv{
+color:#fe0;
+font-style:italic;
+font-weight:900;
+}
+</style>
+</head>
+<body>
+<table id="free">
+<tr>
+  <td><a href="/freebox/AV">AV</a></td>
+  <td></td>
+  <td><a href="/freebox/Power">!</a></td>
+</tr>
+<tr>
+  <td><a href="/freebox/1">1</a></td>
+  <td><a href="/freebox/2">2</a></td>
+  <td><a href="/freebox/3">3</a></td>
+</tr>
+<tr>
+  <td><a href="/freebox/4">4</a></td>
+  <td><a href="/freebox/5">5</a></td>
+  <td><a href="/freebox/6">6</a></td>
+</tr>
+<tr>
+  <td><a href="/freebox/7">7</a></td>
+  <td><a href="/freebox/8">8</a></td>
+  <td><a href="/freebox/9">9</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="/freebox/0">0</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="back"><a href="/freebox/Back">&lt;-</a></td>
+  <td><a href="/freebox/Up">^</a></td>
+  <td class="search"><a href="/freebox/Search">Q</a></td>
+</tr>
+<tr>
+  <td><a href="/freebox/Left">&lt;</a></td>
+  <td><a href="/freebox/Enter">OK</a></td>
+  <td><a href="/freebox/Right">&gt;</a></td>
+</tr>
+<tr>
+  <td class="menu"><a href="/freebox/Menu">M</a></td>
+  <td><a href="/freebox/Down">v</a></td>
+  <td class="info"><a href="/freebox/Info">i</a></td>
+</tr>
+<tr>
+  <td colspan="3"><a href="/freebox/Free" class="free">free</a></td>
+</tr>
+<tr>
+  <td><a href="/freebox/Vol+">V+</a></td>
+  <td><a href="/freebox/Mute">M</a></td>
+  <td><a href="/freebox/Chan+">C+</a></td>
+</tr>
+<tr>
+  <td><a href="/freebox/Vol-">V-</a></td>
+  <td><a href="/freebox/Record" class="record">o</a></td>
+  <td><a href="/freebox/Chan-">C-</a></td>
+</tr>
+<tr>
+  <td><a href="/freebox/Rewind">&lt;&lt;</a></td>
+  <td><a href="/freebox/Play/Pause">|&gt;|</a></td>
+  <td><a href="/freebox/Fast Forward">&gt;&gt;</a></td>
+</tr>
+</table>
+
+<table id="tv">
+<tr>
+  <td colspan="3"><a href="/Teleco.Teleco.apk">apk</a></td>
+</tr>
+<tr>
+  <td><a href="/hdmi/on">I</a></td>
+  <td></td>
+  <td><a href="/hdmi/rpi">&pi;</a></td>
+</tr>
+<tr>
+  <td><a href="/hdmi/standby">O</a></td>
+  <td><a class="tv" href="/">tv</a></td>
+  <td><a href="/hdmi/freebox">FREE</a></td>
+</tr>
+</table>
+
+<table id="kodi">
+<tr>
+  <td><a href="/kodi/firstpage">A</a></td>
+  <td><a href="/kodi/pageup">^</a></td>
+  <td><a href="/kodi/prevletter">L^</a></td>
+</tr>
+<tr>
+  <td><a href="/kodi/lastpage">Z</a></td>
+  <td><a href="/kodi/pagedown">v</a></td>
+  <td><a href="/kodi/nextletter">Lv</a></td>
+</tr>
+<tr>
+  <td class="back"><a href="/kodi/back">&lt;-</a></td>
+  <td><a href="/kodi/up">^</a></td>
+  <td class="search"><a href="/kodi/Quit">!</a></td>
+</tr>
+<tr>
+  <td><a href="/kodi/left">&lt;</a></td>
+  <td><a href="/kodi/select">OK</a></td>
+  <td><a href="/kodi/right">&gt;</a></td>
+</tr>
+<tr>
+  <td class="menu"><a href="/kodi/ContextMenu">M</a></td>
+  <td><a href="/kodi/down">v</a></td>
+  <td class="info"><a href="/kodi/info">i</a></td>
+</tr>
+<tr>
+  <td colspan="3"><a href="/kodi/start" class="kodi">kodi</a></td>
+</tr>
+<tr>
+  <td><a href="/kodi/volumedown">-</a></td>
+  <td><a href="/kodi/mute">M</a></td>
+  <td><a href="/kodi/volumeup">+</a></td>
+</tr>
+<tr>
+  <td><a href="/kodi/stepback">&lt;&lt;&lt;</a></td>
+  <td><a href="/kodi/stop">¤</a></td>
+  <td><a href="/kodi/stepforward">&gt;&gt;&gt;</a></td>
+</tr>
+<tr>
+  <td><a href="/kodi/skipprevious">&lt;&lt;</a></td>
+  <td><a href="/kodi/playpause">|&gt;|</a></td>
+  <td><a href="/kodi/skipnext">&gt;&gt;</a></td>
+</tr>
+</table>
+</body>
+</html>
