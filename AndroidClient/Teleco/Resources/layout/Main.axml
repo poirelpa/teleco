@@ -9,14 +9,15 @@
         android:layout_width="0dp"
         android:layout_height="fill_parent"
         android:shrinkColumns="0,1,2"
-        android:background="#9C8C76">
+        android:background="#9C8C76"
+        android:foreground="#ffffff">
         <TableRow
             android:layout_height="wrap_content"
             android:layout_width="wrap_content">
             <Button
                 android:text="AV"
                 android:id="@+id/fbx_av"
-                android:background="#00000000" />
+                android:background="#00000000"/>
             <Button
                 android:layout_column="2"
                 android:text="!"
@@ -449,7 +450,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content">
                 <Button
-                    android:text="I"
+                    android:text="	⏽"
                     android:id="@+id/tv_on"
                     android:background="#00000000"
                     android:textStyle="bold" />
@@ -463,7 +464,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content">
                 <Button
-                    android:text="O"
+                    android:text="⏾"
                     android:id="@+id/tv_standby"
                     android:background="#00000000"
                     android:textStyle="bold" />
@@ -482,8 +483,7 @@
                     android:textColor="#ffee00"
                     android:textStyle="bold|italic"
                     android:textAllCaps="false"
-                    android:background="#00000000"
-                    android:textSize="30dp" />
+                    android:background="#00000000" />
             </TableRow>
         </TableLayout>
         <TableLayout
@@ -613,7 +613,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content">
                 <Button
-                    android:text="&lt;&lt;"
+                    android:text="⏪"
                     android:id="@+id/kodi_stepback"
                     android:background="#00000000" />
                 <Button
@@ -622,7 +622,7 @@
                     android:typeface="monospace"
                     android:text="█ " />
                 <Button
-                    android:text="&gt;&gt;"
+                    android:text="⏩"
                     android:id="@+id/kodi_stepforward"
                     android:background="#00000000"
                     android:typeface="monospace" />

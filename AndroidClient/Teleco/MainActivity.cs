@@ -10,6 +10,7 @@ using Android.Util;
 using System.Threading.Tasks;
 using System.Net.Http;
 using Android.Hardware;
+using Android.Graphics;
 
 namespace Teleco
 {
@@ -130,6 +131,8 @@ namespace Teleco
 
         private void AttachEventHandlers(TableLayout fbxTeleco)
         {
+            string path = "Everson Mono Bold.ttf";
+            Typeface tf = Typeface.CreateFromAsset(Assets, path);
             for (int i = 0; i < fbxTeleco.ChildCount; i++)
             {
                 var row = fbxTeleco.GetChildAt(i) as TableRow;
@@ -141,6 +144,7 @@ namespace Teleco
                     var btnView = row.GetChildAt(j) as Android.Widget.Button;
                     btnView.Click += BtnView_Click;
                     btnView.LongClick += BtnView_LongClick;
+                    btnView.Typeface = tf;
                 }
             }
         }
